@@ -1,0 +1,92 @@
+git config --list
+git config --global color.ui auto
+git config global --list
+git config --global --list
+git clone https://github.com/sadakbd/ConfigData.git
+git status
+git config --global branch.autosetuprebase always
+git init
+git remote add config_data https://github.com/sadakbd/ConfigData.
+git remote add origin ../remote-repository.git
+git remote show origin
+echo "I added a remote repo" > test02
+git commit -a -m "This is a test for the new remote origin"
+git add test02
+git push origin
+git remote show origin
+git push origin
+git remote -v
+git pull
+git log
+git remote rename config_data configData
+git clone --bare . ../remote-repository.git
+git clone ../remote-repository.git/
+git push ../remote-repository.git
+ls -lrt
+git push ../remote-repository.git
+git push --set-upstream ../remote-repository.git master
+git pull
+git commit -a -m "A change"
+git push origin
+git branch
+git branch -a
+git branch -r
+git branch testing
+git branch -a
+git checkout testing
+touch test03.txt
+git commit -a -m "new feature"
+git checkout master
+git branch -m testing testing1
+git checkout -b testing1
+git checkout  testing1
+git branch
+git branch -a
+git checkout master
+git status
+git push origin testing
+git checkout testing
+git push --set-upstream origin testing
+git branch anewbranch
+ls -lrt
+git branch -a
+echo "More news for you" >> test01
+git commit -a -m "a new commit in a feature branch"
+git add test01
+git commit -a -m "a new commit in a feature branch"
+git push origin anewbranch:master
+git branch -a
+git checkout master
+git pull
+ls -lrt
+git diff master testing
+git tag
+git tag -l
+git tag 1.7.1
+git tag -l
+git tag
+git show 1.7.1
+git tag 1.6.1 -m 'Release 1.6.1'
+git tag
+tag 1.5.1 -m 'version 1.5' 6b6bbd07054198a5bdd9aa3a5e5f6dbdd83d98
+tag -m 'version 1.5' 6b6bbd07054198a5bdd9aa3a5e5f6dbdd83d9834
+git tag 1.5.1 -m 'version 1.5' 6b6bbd07054198a5bdd9aa3a5e5f6dbdd8
+git push --tags
+git push origin :refs/tags/1.7.0
+git log
+git log --pretty=format:'%Cred%h%Creset %d%Creset %s %Cgreen(%cr)
+ %C(bold blue)<%an>%Creset' --abbrev-commit
+ls -lrt
+git blame test03
+git shortlog
+git reset unwantedstaged.txt
+git status
+git init
+git remote add origin https://github.com/sadakbd/gitDemo.git
+git push -u origin master
+git reset
+git remote add origin https://github.com/sadakbd/gitDemo.git
+git push -u origin master
+git config global --list
+git config --list
+git checkout -b branch-1
